@@ -1,0 +1,442 @@
+Crie um protótipo COMPLETO, INTERATIVO e FUNCIONAL no Figma para o sistema “Smart Estoque”, da empresa Charcutaria Mantovani.
+
+O sistema é um software de gestão de estoque, produção, perdas, rendimento, vendas, clientes e relatórios para uma charcutaria artesanal.
+
+UTILIZE como base visual a dashboard já criada anteriormente e mantenha consistência visual em TODAS as telas.
+
+O protótipo NÃO deve ser apenas visual.
+Ele deve simular um sistema real navegável, com interações, inputs e fluxo operacional completo.
+
+━━━━━━━━━━━━━━━━━━━
+OBJETIVO DO PROJETO
+━━━━━━━━━━━━━━━━━━━
+
+Criar um MVP navegável estilo SaaS/ERP moderno para controle operacional da charcutaria.
+
+O sistema deve:
+
+* controlar matéria-prima
+* registrar produção
+* calcular perdas
+* calcular rendimento
+* atualizar estoque automaticamente
+* registrar vendas
+* gerenciar clientes
+* gerar relatórios
+* organizar atendimento
+
+━━━━━━━━━━━━━━━━━━━
+ESTILO VISUAL
+━━━━━━━━━━━━━━━━━━━
+
+Seguir padrão:
+
+* SaaS moderno
+* ERP profissional
+* UI minimalista
+* estilo Notion + Stripe Dashboard + ERP industrial
+* visual clean
+* alta legibilidade
+* foco operacional
+* poucos cliques
+* produtividade rápida
+
+Características:
+
+* sidebar fixa à esquerda
+* header superior
+* cards KPI
+* tabelas modernas
+* inputs arredondados
+* ícones minimalistas
+* design responsivo desktop-first
+* grid consistente
+* espaçamento profissional
+* componentes reutilizáveis
+
+━━━━━━━━━━━━━━━━━━━
+PROTOTIPAÇÃO FUNCIONAL
+━━━━━━━━━━━━━━━━━━━
+
+As telas devem possuir:
+
+* navegação entre páginas
+* botões clicáveis
+* links funcionais
+* menus navegáveis
+* hover states
+* loading states
+* feedback visual
+* modais
+* toasts de sucesso/erro
+* dropdowns
+* filtros
+* busca
+* tabelas interativas
+* paginação
+* simulação de dados reais
+
+━━━━━━━━━━━━━━━━━━━
+FLUXOS OBRIGATÓRIOS
+━━━━━━━━━━━━━━━━━━━
+
+FLUXO 1 — Entrada de Matéria-Prima
+Dashboard
+→ Estoque
+→ Nova Entrada
+→ Formulário
+→ Salvar Entrada
+→ Atualizar Estoque
+→ Toast de sucesso
+
+FLUXO 2 — Registro de Produção
+Dashboard
+→ Produção
+→ Nova Produção
+→ Selecionar Produto
+→ Adicionar Matérias-Primas
+→ Informar Quantidade Final
+→ Sistema calcula:
+
+* perdas
+* rendimento
+  → Salvar Produção
+  → Atualizar Estoque
+
+FLUXO 3 — Registro de Venda
+Dashboard
+→ Vendas
+→ Nova Venda
+→ Adicionar Produtos
+→ Informar Quantidades
+→ Calcular Total
+→ Finalizar Venda
+→ Atualizar Estoque
+
+FLUXO 4 — Relatórios
+Dashboard
+→ Relatórios
+→ Filtrar Período
+→ Gerar Relatório
+→ Visualizar KPIs
+→ Exportar PDF/Excel
+
+FLUXO 5 — Atendimento
+Dashboard
+→ Atendimento
+→ Conversas
+→ Visualizar Cliente
+→ Histórico
+→ Respostas rápidas
+
+━━━━━━━━━━━━━━━━━━━
+TELAS NECESSÁRIAS
+━━━━━━━━━━━━━━━━━━━
+
+1. DASHBOARD
+
+Elementos:
+
+* cards KPI
+* estoque total
+* produções do mês
+* faturamento
+* perdas
+* gráfico operacional
+* estoque baixo
+* produções recentes
+* alertas
+* botão “Nova Entrada”
+
+Funcionalidades:
+
+* navegação rápida
+* busca global
+* notificações
+
+━━━━━━━━━━━━━━━━━━━
+
+2. ESTOQUE
+
+Funcionalidades:
+
+* tabela de produtos
+* saldo atual
+* estoque mínimo
+* status:
+
+  * normal
+  * atenção
+  * crítico
+* filtros
+* busca
+* paginação
+* ações:
+
+  * editar
+  * excluir
+  * visualizar
+
+Botões:
+
+* Nova Entrada
+* Exportar
+
+━━━━━━━━━━━━━━━━━━━
+
+3. ENTRADA DE MATÉRIA-PRIMA
+
+Campos:
+
+* produto
+* fornecedor
+* lote
+* validade
+* quantidade
+* unidade
+* valor unitário
+* observações
+
+Ações:
+
+* salvar
+* cancelar
+* adicionar lote
+
+Feedback:
+
+* toast sucesso
+* validação visual
+
+━━━━━━━━━━━━━━━━━━━
+
+4. REGISTRO DE PRODUÇÃO
+
+Campos:
+
+* produto produzido
+* data produção
+* quantidade final
+* matérias-primas utilizadas
+* lote
+* observações
+
+Funcionalidades:
+
+* adicionar matéria-prima
+* cálculo automático
+* cálculo de perdas
+* cálculo de rendimento
+* atualização automática do estoque
+
+━━━━━━━━━━━━━━━━━━━
+
+5. CÁLCULO DE PERDAS E RENDIMENTO
+
+Mostrar:
+
+* matéria-prima total
+* quantidade produzida
+* perda em KG
+* perda %
+* rendimento %
+* gráfico
+* indicadores
+* tabela detalhada
+
+Adicionar:
+
+* cards comparativos
+* histórico de rendimento
+
+━━━━━━━━━━━━━━━━━━━
+
+6. VENDAS
+
+Funcionalidades:
+
+* venda rápida
+* cliente opcional
+* adicionar múltiplos produtos
+* quantidade
+* subtotal automático
+* total automático
+* desconto
+* finalizar venda
+
+Após finalizar:
+
+* atualizar estoque
+* emitir feedback
+
+━━━━━━━━━━━━━━━━━━━
+
+7. CLIENTES
+
+Funcionalidades:
+
+* cadastro PF/PJ
+* telefone
+* WhatsApp
+* email
+* histórico de compras
+* pedidos recentes
+* observações
+* status do cliente
+
+Ações:
+
+* editar
+* visualizar
+* novo cliente
+
+━━━━━━━━━━━━━━━━━━━
+
+8. RELATÓRIOS
+
+Tipos:
+
+* relatório de perdas
+* relatório de vendas
+* relatório financeiro
+* relatório de produção
+
+Funcionalidades:
+
+* filtros por período
+* exportar PDF
+* exportar Excel
+* KPIs
+* gráficos
+* tabelas detalhadas
+
+━━━━━━━━━━━━━━━━━━━
+
+9. ATENDIMENTO / WHATSAPP
+
+Layout estilo CRM/chat.
+
+Funcionalidades:
+
+* lista de conversas
+* mensagens pendentes
+* respostas rápidas
+* histórico do cliente
+* pedidos vinculados
+* status do atendimento
+
+━━━━━━━━━━━━━━━━━━━
+
+10. CONFIGURAÇÕES
+
+Funcionalidades:
+
+* usuários
+* permissões
+* integrações
+* backup
+* notificações
+* alertas
+* preferências do sistema
+
+━━━━━━━━━━━━━━━━━━━
+REQUISITOS FUNCIONAIS
+━━━━━━━━━━━━━━━━━━━
+
+Basear o sistema nestes RFs:
+
+RF001 – Cadastro de matéria-prima
+RF002 – Registro de produção
+RF003 – Cálculo de rendimento
+RF004 – Registro de perdas
+RF005 – Atualização automática de estoque
+RF006 – Registro de vendas
+RF007 – Cadastro de pedidos
+RF009 – Histórico de vendas
+RF010 – Cadastro de clientes
+RF012 – Relatórios de vendas
+RF013 – Relatórios de produção
+RF014 – Relatórios de perdas
+RF015 – Exportação de relatórios
+RF016 – Registro de atendimento
+RF017 – Mensagens pendentes
+RF018 – Catálogo de produtos
+
+━━━━━━━━━━━━━━━━━━━
+REQUISITOS NÃO FUNCIONAIS
+━━━━━━━━━━━━━━━━━━━
+
+Priorizar:
+
+* rapidez operacional
+* poucos cliques
+* interface intuitiva
+* alta legibilidade
+* uso industrial diário
+* responsividade
+* desempenho visual
+* consistência entre telas
+
+━━━━━━━━━━━━━━━━━━━
+DESIGN SYSTEM
+━━━━━━━━━━━━━━━━━━━
+
+Criar componentes reutilizáveis:
+
+* botões
+* inputs
+* selects
+* dropdowns
+* sidebar
+* navbar
+* cards
+* tabelas
+* modais
+* toasts
+* badges
+* alertas
+* paginação
+* gráficos
+
+━━━━━━━━━━━━━━━━━━━
+DADOS E REALISMO
+━━━━━━━━━━━━━━━━━━━
+
+Adicionar:
+
+* dados fictícios realistas
+* produtos da charcutaria
+* lotes
+* fornecedores
+* valores
+* gráficos
+* históricos
+* clientes
+* mensagens
+* relatórios completos
+
+Exemplos:
+
+* Linguiça Toscana
+* Presunto Cozido
+* Mortadela
+* Queijo Mussarela
+* Peito de Peru
+
+━━━━━━━━━━━━━━━━━━━
+IMPORTANTE
+━━━━━━━━━━━━━━━━━━━
+
+O resultado deve parecer um sistema real pronto para desenvolvimento.
+
+As telas devem:
+
+* ser navegáveis
+* possuir fluxo real
+* parecer um ERP profissional
+* possuir interações
+* possuir estados
+* simular operações reais
+* demonstrar claramente os requisitos do documento
+
+Criar o protótipo em baixa/média fidelidade, porém com estrutura profissional e funcional.
